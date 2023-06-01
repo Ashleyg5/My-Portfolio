@@ -4,10 +4,10 @@ export default function About() {
   return (
     <section className='container'>
       <div>
-        <h1 className='text-center mt-3 mb-4'>About Me</h1>
-        <p>
-          Hi there! I'm Ashley, a passionate and dedicated full stack web developer based in Orlando, Florida.
-          At the age of 23, I've already embarked on an exciting journey in the field of web development.
+      <h5 className='mb-0 mt-5 text-center'>Learn a Bit</h5>
+        <h1 className='text-center mt-0 mb-5'>About Me</h1>
+        <p className='about'>
+          Hi there! I'm Ashley, a 23 year old passionate and dedicated full stack web developer based in Orlando, Florida.
           <br />
           <br />
           I graduated from the University of Central Florida with a Bachelor's degree in Public Relations. While my educational background provided me with a strong foundation in communication and problem-solving skills, I discovered my true passion for technology during my time at UCF's Full Stack Web Development Bootcamp. I successfully completed the program and received a certificate, equipping me with the latest tools and techniques in web development.
