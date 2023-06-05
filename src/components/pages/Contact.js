@@ -53,7 +53,7 @@ export default function Contact() {
     setIsEmailValid(event.target.checkValidity());
   };
   return (
-    <section className='container'>
+    <section className='container contact'>
       <h5 className='mb-0 mt-5 text-center'>Get in Touch</h5>
       <h1 className='mb-5 text-center'>Contact Me</h1>
       <div className='row'>

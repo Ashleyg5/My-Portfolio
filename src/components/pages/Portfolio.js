@@ -6,7 +6,7 @@ import {GrHeroku} from 'react-icons/gr';
 export default function Portfolio() {
   return (
   <section className='container portfolio'>
-    <div>
+    <div className='mt-5 mb-5'>
     <h5 className='mb-0 mt-5 text-center'>View my</h5>
       <h1 className='mt-0 mb-5 text-center'>Portfolio & Projects</h1>
       <div className='portfolio-container'>

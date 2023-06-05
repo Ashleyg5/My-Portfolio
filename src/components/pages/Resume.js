@@ -4,7 +4,7 @@ import {FiCheckCircle} from 'react-icons/fi'
 
 export default function Resume() {
   return (
-    <section className='container'>
+    <section className='container resume'>
       <div className='text-center'>
       <h5 className='mb-0 mt-5 text-center'>View my</h5>
         <h1 className='mt-0 mb-4'>Resume & Skills</h1>
