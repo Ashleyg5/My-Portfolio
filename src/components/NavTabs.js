@@ -9,39 +9,43 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
     <nav>
       <a
         href="#home"
+      >
+        <AiFillHome 
         onClick={() => handlePageChange('Home')}
         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        
-      >
-        <AiFillHome size={20} />
+        size={20} />
       </a>
       <a
         href="#about"
+      >
+        <BsPersonFill 
         onClick={() => handlePageChange('About')}
         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-      >
-        <BsPersonFill size={20} />
+        size={20} />
       </a>
       <a
         href="#portfolio"
-        onClick={() => handlePageChange('Portfolio')}
-        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
       >
-        <BsFillGrid1X2Fill size={20} />
+        <BsFillGrid1X2Fill
+        onClick={() => handlePageChange('Portfolio')}
+        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} 
+        size={20} />
       </a>
       <a
         href="#resume"
-        onClick={() => handlePageChange('Resume')}
-        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
       >
-        <BsFillFileEarmarkTextFill size={20} />
+        <BsFillFileEarmarkTextFill
+        onClick={() => handlePageChange('Resume')}
+        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} 
+        size={20} />
       </a>
       <a
         href="#contact"
-        onClick={() => handlePageChange('Contact')}
-        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
       >
-        <MdContactMail size={20} />
+        <MdContactMail
+        onClick={() => handlePageChange('Contact')}
+        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
+        size={20} />
       </a>
     </nav>
   );

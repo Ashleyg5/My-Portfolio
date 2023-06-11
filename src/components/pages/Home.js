@@ -5,7 +5,7 @@ import {GrMail} from 'react-icons/gr'
 
 export default function Home() {
   return (
-  <section className='container header_container'>
+  <section className='container header_container' id='home'>
     <div className='text-center'>
       <header>
       <h5 className='home-small mt-5'>Hello, I'm</h5>
