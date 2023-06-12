@@ -20,6 +20,11 @@ export default function Portfolio() {
           <a href='https://github.com/keelyybug/Event-Ease' target='_blank'><BsGithub size={25} className='portfolio-icons me-3'/></a>
           <a href='https://event-ease.herokuapp.com/' target='_blank'><GrHeroku size={25} className='portfolio-icons'/></a>
         </article>
+        <article className='streamverse portfolio-items'>
+          <h3>StreamVerse</h3>
+          <a href='https://github.com/emilymclean94/movie-nova' target='_blank'><BsGithub size={25} className='portfolio-icons me-3'/></a>
+          <a href='https://streamversee.herokuapp.com/' target='_blank'><GrHeroku size={25} className='portfolio-icons'/></a>
+        </article>
         <article className='weather portfolio-items'>
           <h3>Weather App</h3>
           <a href='https://github.com/Ashleyg5/Weather-Forecast' target='_blank'><BsGithub size={25} className='portfolio-icons me-3'/></a>

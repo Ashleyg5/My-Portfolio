@@ -273,6 +273,14 @@ p.contactbtns {
     background-blend-mode: overlay;
 }
 
+.streamverse {
+    background-image: url(./assets/streamverse.png);
+    background-position: contain;
+    background-repeat:round;
+    background-size: cover;
+    background-color: #001d3d88;
+    background-blend-mode: overlay;
+}
 
 
 .eventease {
