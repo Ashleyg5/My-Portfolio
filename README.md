@@ -7,7 +7,8 @@
   
   This is a personal portfolio created using React, showcasing my skills,  and projects. Designed with simplicity and fun in mind, this portfolio serves as a professional showcase of my work and provides an overview of my experience, expertise, and creativity.
 
-  ![Homepage](https://github.com/Ashleyg5/My-Portfolio/assets/118938942/cf75d1e9-f8a3-44f3-b223-304248abdaed)
+  ![Homepage](https://github.com/Ashleyg5/My-Portfolio/assets/118938942/6a74eaec-43b4-4ca7-8105-e5e986f5b37b)
+
 
 
   ## Table of Contents 
