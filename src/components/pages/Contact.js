@@ -117,7 +117,7 @@ export default function Contact() {
             <p className='contactbtns'> Ashleygiraldo5@hotmail.com</p>
           </Button>{' '}
           <br />
-          <Button type='link' href='https://github.com/Ashleyg5' className='me-3' size="lg">
+          <Button type='link' href='https://github.com/Ashleyg5' className='' size="lg">
             <BsGithub size={30} className='m-3 email' />
             <br />
             Github
@@ -133,6 +133,11 @@ export default function Contact() {
           </Button>
         </div>
       </div>
+      <footer>
+        <br />
+        <br />
+        <br />
+      </footer>
     </section>
   );
 }

@@ -11,7 +11,7 @@ export default function Resume() {
       </div>
       <div>
         <div className='col text-center mb-5'>
-          <a type='link' target='_blank' href='https://drive.google.com/file/d/1gorcsnL-mn8nn8PssvGzg5pclXD7ErCW/view?usp=drive_link' className='btn me-4'>View CV</a>
+          <a type='link' target='_blank' href='https://drive.google.com/file/d/1ha8emDYsaFXTm4QzxQfDYLiuvQoBinCC/view?usp=sharing' className='btn me-4'>View CV</a>
           <a href={CV} download className='btn'>Download CV</a>
         </div>
         <div className='col container skills-container text-center'>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -26,8 +26,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif !important;
-    background: linear-gradient(to bottom, rgba(0, 29, 61) 0%, rgba(0, 8, 20) 85%, #000000 100%) !important;
+    font-family: 'Barlow Condensed', sans-serif !important;
+    background: linear-gradient(to bottom, rgb(35, 81, 129) 0%, rgba(0, 8, 20) 85%, #000000 100%) !important;
 }
 
 
@@ -51,6 +51,10 @@ h4 {
 
 h5 {
     font-weight: 300 !important;
+}
+
+p {
+    font-weight: 400;
 }
 
 h1 {
@@ -136,9 +140,16 @@ svg:hover {
 /*================ HOMEPAGE ================*/
 
 header {
-    height: 100vh;
+    height: 90vh;
     padding-top: 7rem;
     overflow: hidden;
+    
+}
+
+.gif {
+    background: no-repeat url('./assets/giif.gif') center;
+    background-size: contain;
+   
 }
 
 .header_container {
@@ -151,7 +162,7 @@ header {
     gap: 0.8rem;
     flex-direction: column;
     align-items: center;
-    right: 0;
+    right: -79px;
     bottom: 3rem;
     position: absolute;
 }
@@ -165,12 +176,14 @@ header {
 
 .scroll__down {
     position: absolute;
-    left: -2.3rem;
+    left: -6.9rem;
     bottom: 5rem;
     transform: rotate(270deg);
     font-weight: 400;
     font-size: 0.9rem;
 }
+
+
 
 /*================ NAVBAR ================*/
 
@@ -190,7 +203,7 @@ nav {
 
 nav a {
     background-color: var(--color-primary) !important;
-    padding: 0.9rem;
+    padding: 0.5rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-white) !important;
@@ -225,7 +238,9 @@ p.contactbtns {
 /*================ ABOUT ================*/
 
 .about {
-    font-weight: 300 !important;
+    font-weight: 400 !important;
+    font-size: large;
+    text-align: center;
 }
 
 /*================ PORTFOLIO ================*/
@@ -445,7 +460,17 @@ svg.portfolio-icons:hover {
     }
 
     header {
-        height: 100vh;
+        height: 65vh;
+    }
+
+    .hero {
+        width: 50vw;
+        height: 30vh;
+    }
+
+    div.gif {
+        flex-direction: column;
+        text-align: center;
     }
 
     .header_socials,

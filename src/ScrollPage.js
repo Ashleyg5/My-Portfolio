@@ -16,10 +16,20 @@ export default function ScrollPage() {
        currentPage={currentPage} handlePageChange={handlePageChange}
       />
         <Home/>
+        <br />
+        <br />
         <About />
+        <br />
+        <br />
         <Portfolio />
+        <br />
+        <br />
         <Resume />
+        <br />
+        <br />
         <Contact />
+        <br />
+        <br />
     </div>
   );
 };
