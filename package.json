@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Ashleyg5.github.io/My-Portfolio",
+  "homepage": "https://www.ashleygiraldo.com",
   "private": true,
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
