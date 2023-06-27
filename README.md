@@ -15,10 +15,7 @@
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
-  - [Contributions](#contributions)
-  - [Tests](#tests)
   - [Questions](#questions)
   
 
