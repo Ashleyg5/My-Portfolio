@@ -51,24 +51,15 @@ h4 {
 
 h5 {
     font-weight: 300 !important;
+    font-size: 1.5rem !important;
 }
 
-p {
-    font-weight: 400;
-}
 
 h1 {
-    font-size: 3rem;
-    /*2-3 rem*/
+    font-size: 4rem !important
 }
 
-.home {
-    font-size: 5rem;
-}
 
-.home-small {
-    font-size: 2rem;
-}
 
 section.h2,
 section.h5 {
@@ -119,6 +110,7 @@ svg:hover {
     cursor: pointer;
     border: 1px solid var(--color-light) !important;
     transition: var(--transition);
+    font-size: 1.5rem !important;
 }
 
 
@@ -180,10 +172,20 @@ header {
     bottom: 5rem;
     transform: rotate(270deg);
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
+.home {
+    font-size: 8rem;
+}
 
+.home-small {
+    font-size: 2rem;
+}
+
+h5.home-small {
+    margin-top: 15%;
+}
 
 /*================ NAVBAR ================*/
 
@@ -239,8 +241,11 @@ p.contactbtns {
 
 .about {
     font-weight: 400 !important;
-    font-size: large;
     text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
 }
 
 /*================ PORTFOLIO ================*/
