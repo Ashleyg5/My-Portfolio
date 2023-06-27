@@ -469,6 +469,14 @@ svg.portfolio-icons:hover {
         height: 65vh;
     }
 
+    h5.home-small {
+        font-size: 2rem!important;
+    }
+
+    h1.home {
+        font-size: 5rem!important;
+    }
+
     .hero {
         width: 50vw;
         height: 30vh;
